@@ -2,19 +2,19 @@
 
 namespace BinarySearch
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            Console.WriteLine("Choose a number to search betweeen 1 - 10");
+            Console.WriteLine("Choose a number to search betweeen 1 - 10. If search number returns -1 your searched number was not found.");
 
             int target = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your target number was found at index: " + BinarySearch(numbers, target));
+            Console.WriteLine("Your target number was found at index: " + BSearch(numbers, target));
         }
 
 
-        private static int BinarySearch(int [] numbers, int target)
+        public static int BSearch(int [] numbers, int target)
         {
             int mid;
             int left = 0;
@@ -34,7 +34,7 @@ namespace BinarySearch
                     right = mid - 1;
 
                 }
-                else
+                else if (numbers[mid] < target)
                 {
                     left = mid + 1;
                 }
