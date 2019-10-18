@@ -24,7 +24,7 @@ with the new value added at the middle index.
 
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
-![Image 1](C:\Users\kifle\Desktop\Coding\labs401\data-structures-and-algorithms-401\challenges\ArrayShift\ArrayShift\Assets\array-shift.jpg)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/challenges/ArrayShift/ArrayShift/Assets/array-shift.jpg)
 
 
 ---
