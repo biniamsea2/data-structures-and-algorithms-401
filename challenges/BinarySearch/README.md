@@ -7,7 +7,7 @@
 
 
 Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. 
-Without utilizing any of the built-in methods available to your language, return the index of the array’s element 
+Without utilizing any of the built-in methods available to your language, return the index of the arrayâ€™s element 
 that is equal to the search key, or -1 if the element does not exist.
 ---
 
@@ -25,7 +25,7 @@ that is equal to the search key, or -1 if the element does not exist.
 
 
 ### Whiteboard Visual
-![Image 1](edit in readme, add url to image)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191018_100449.jpg)
 
 
 ---
