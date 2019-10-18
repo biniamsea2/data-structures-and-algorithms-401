@@ -36,7 +36,6 @@ namespace BinarySearch
                 }
                 else
                 {
-
                     left = mid + 1;
                 }
 
