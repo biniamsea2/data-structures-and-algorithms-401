@@ -2,16 +2,16 @@
 
 namespace ArrayShift
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             int [] challenge = { 4, 5, 6, 7 };
             int value = 88;
             InsertShiftArray(challenge, value);
         }
 
-        public static void InsertShiftArray(int[] challenge, int value)
+        public static int [] InsertShiftArray(int[] challenge, int value)
         {
             int mid = challenge.Length / 2;
             int[] newArray = new int[challenge.Length + 1];
@@ -34,6 +34,7 @@ namespace ArrayShift
 
           
             Console.WriteLine("Your new array is: " + String.Join(" , ", newArray));
+            return newArray;
         }
 
     }
