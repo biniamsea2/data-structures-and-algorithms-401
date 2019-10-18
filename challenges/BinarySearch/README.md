@@ -25,11 +25,10 @@ that is equal to the search key, or -1 if the element does not exist.
 
 
 ### Whiteboard Visual
-***[Your Whiteboard Image]***
 ![Image 1](edit in readme, add url to image)
 
 
 ---
 
 ### Change Log
-
+1.0 Code Challenge 2 (Binary Search) completed on 10/18/19
