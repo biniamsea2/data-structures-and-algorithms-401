@@ -47,7 +47,6 @@ Write the following methods for the Linked List class:
 
 
 ### Whiteboard Visual
-***[Your Whiteboard Image]***
 ![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191022_135643.jpg)
 
 
