@@ -16,9 +16,12 @@ Write the following methods for the Linked List class:
 ### Inputs and Expected Outputs
 
 .append(value)  
-Input	Args	Output  
-head -> [1] -> [3] -> [2] -> X	5	head -> [1] -> [3] -> [2] -> [5] -> X  
-head -> X	1	head -> [1] -> X  
+
+| Input | Expected Output |
+| :----------- | :----------- |
+| [4,8,15,16,23,42], 15 | 2 |
+| [11,22,33,44,55,66,77], 90 | -1 |
+
 
 .insertBefore(value, newVal)
 Input	Args	Output
