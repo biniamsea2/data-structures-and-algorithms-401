@@ -15,27 +15,23 @@ Write the following methods for the Linked List class:
 
 ### Inputs and Expected Outputs
 
-.append(value)  
-
-| Input | Expected Output |
-| :----------- | :----------- |
-| [4,8,15,16,23,42], 15 | 2 |
-| [11,22,33,44,55,66,77], 90 | -1 |
-
-
-.insertBefore(value, newVal)
-Input	Args	Output
-head -> [1] -> [3] -> [2] -> X	3, 5	head -> [1] -> [5] -> [3] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	1, 5	head -> [5] -> [1] -> [3] -> [2] -> X
-head -> [1] -> [2] -> [2] -> X	2, 5	head -> [1] -> [5] -> [2] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	4, 5	Exception
-.insertAfter(value, newVal)
-Input	Args	Output
-head -> [1] -> [3] -> [2] -> X	3, 5	head -> [1] -> [3] -> [5] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	2, 5	head -> [1] -> [3] -> [2] -> [5] -> X
-head -> [1] -> [2] -> [2] -> X	2, 5	head -> [1] -> [2] -> [5] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	4, 5	Exception
-
+#### .append(value)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 5 | head -> [1] -> [3] -> [2] -> [5] -> X |
+| head -> X | 1 | head -> [1] -> X |
+#### .insertBefore(value, newValue)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [5] -> [1] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
+#### .insertAfter(value, newValue)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [3] -> [5] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
 
 ---
 
