@@ -4,9 +4,7 @@
 
 ---
 
-### Problem Domain
-***[Problem Domain for the Code Challenge]***
-
+### Problem Domain  
 Write the following methods for the Linked List class:  
 
 .append(value) which adds a new node with the given value to the end of the list  
@@ -17,23 +15,23 @@ Write the following methods for the Linked List class:
 
 ### Inputs and Expected Outputs
 
-.append(value)
-Input	Args	Output
-head -> [1] -> [3] -> [2] -> X	5	head -> [1] -> [3] -> [2] -> [5] -> X
-head -> X	1	head -> [1] -> X
-.insertBefore(value, newVal)
-Input	Args	Output
-head -> [1] -> [3] -> [2] -> X	3, 5	head -> [1] -> [5] -> [3] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	1, 5	head -> [5] -> [1] -> [3] -> [2] -> X
-head -> [1] -> [2] -> [2] -> X	2, 5	head -> [1] -> [5] -> [2] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	4, 5	Exception
-.insertAfter(value, newVal)
-Input	Args	Output
-head -> [1] -> [3] -> [2] -> X	3, 5	head -> [1] -> [3] -> [5] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	2, 5	head -> [1] -> [3] -> [2] -> [5] -> X
-head -> [1] -> [2] -> [2] -> X	2, 5	head -> [1] -> [2] -> [5] -> [2] -> X
-head -> [1] -> [3] -> [2] -> X	4, 5	Exception
-
+#### .append(value)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 5 | head -> [1] -> [3] -> [2] -> [5] -> X |
+| head -> X | 1 | head -> [1] -> X |
+#### .insertBefore(value, newValue)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [5] -> [1] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
+#### .insertAfter(value, newValue)
+| Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [3] -> [5] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
+| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
 
 ---
 
@@ -49,8 +47,7 @@ head -> [1] -> [3] -> [2] -> X	4, 5	Exception
 
 
 ### Whiteboard Visual
-***[Your Whiteboard Image]***
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191022_135643.jpg)
 
 
 ---
@@ -60,4 +57,3 @@ head -> [1] -> [3] -> [2] -> X	4, 5	Exception
 1.0: Code Challenge 6 Completed - 22 Oct 2019  
 
 ---
-
