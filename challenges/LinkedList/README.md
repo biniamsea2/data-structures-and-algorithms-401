@@ -57,4 +57,3 @@ Write the following methods for the Linked List class:
 1.0: Code Challenge 6 Completed - 22 Oct 2019  
 
 ---
-

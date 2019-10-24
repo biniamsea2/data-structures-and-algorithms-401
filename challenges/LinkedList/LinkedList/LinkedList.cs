@@ -112,5 +112,36 @@ namespace LinkedList
 
         #endregion
 
+
+
+        #region llkthfromend
+
+        public void llkthFromend(int K)
+        {
+            Node newNode = new Node(K);
+            if (Head == null)
+            {
+                Head = newNode;
+            }
+            else
+            {
+                int counter = 0;
+                Node current = Head;
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                    counter++;
+                    int final = counter - K;
+                }
+                current.Next = newNode;
+            }
+        }
+
+
+
+
+
+        #endregion
+
     }
 }
