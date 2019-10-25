@@ -53,6 +53,12 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 ### Inputs and Expected Outputs for Code Challenge 8
 
 #### mergeLists(list1, list2)
+| Input | Input | Args | Expected Output |
+| :----------- |:-- |:----------- |
+| head -> [1] -> [3] -> [2] -> X | head -> [1] -> [3] -> [2] -> X | [2]
+
+
+
 | Input | | Input2 | Args | Expected Output |
 | :----------- |:-- |:----------- |
 | head -> [1] -> [3] -> [2] -> X | head -> [5] -> [9] -> [4] -> X | head -> [1] -> [5] -> [3] -> [9] -> [2] -> [4] -> X
@@ -92,5 +98,7 @@ Code Challenge 8
 ### Change Log
  
 1.0: Code Challenge 6 Completed - 22 Oct 2019  
+1.0: Code Challenge 7 Partial - 24 Oct 2019  
+1.0: Code Challenge 6 Partial - 25 Oct 2019  
 
 ---
