@@ -48,8 +48,7 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 #### .append(value)
 | Input | Args | Expected Output |
 | :----------- |:-- |:----------- |
-| head -> [1] -> [3] -> [8] -> [2] X | 5 | head -> [1] -> [3] -> [2] -> [5] -> X |
-| head -> X | 1 | head -> [1] -> X |
+| head -> [1] -> [3] -> [8] -> [2] X | 0 | head -> [2]
 #### .insertBefore(value, newValue)
 | Input | Args | Expected Output |
 | :----------- |:-- |:----------- |
