@@ -45,22 +45,10 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 
 ### Inputs and Expected Outputs for Code Challenge 7
 
-#### .append(value)
+#### ll.kthFromEnd(k)
 | Input | Args | Expected Output |
 | :----------- |:-- |:----------- |
-| head -> [1] -> [3] -> [8] -> [2] X | 0 | head -> [2]
-#### .insertBefore(value, newValue)
-| Input | Args | Expected Output |
-| :----------- |:-- |:----------- |
-| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
-| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [5] -> [1] -> [3] -> [2] -> X |
-| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
-#### .insertAfter(value, newValue)
-| Input | Args | Expected Output |
-| :----------- |:-- |:----------- |
-| head -> [1] -> [3] -> [2] -> X | 3, 5 | head -> [1] -> [3] -> [5] -> [2] -> X |
-| head -> [1] -> [3] -> [2] -> X | 1, 5 | head -> [1] -> [5] -> [3] -> [2] -> X |
-| head -> [1] -> [3] -> [2] -> X | 4, 5 | Exception |
+| head -> [1] -> [3] -> [8] -> [2] -> X | 0 | [2]
 
 
 
