@@ -49,6 +49,7 @@ Write the following methods for the Linked List class:
 ### Whiteboard Visual
 ![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191022_135643.jpg)
 ![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191024_134956.jpg)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191023_135831.jpg)
 
 
 
