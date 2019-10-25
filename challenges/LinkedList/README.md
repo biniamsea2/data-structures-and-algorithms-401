@@ -6,7 +6,7 @@
 
 ### Problem Domain  
 Write the following methods for the Linked List class:  
-####Code Challenge 6:  
+###Code Challenge 6:  
 
 .append(value) which adds a new node with the given value to the end of the list  
 .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node  
