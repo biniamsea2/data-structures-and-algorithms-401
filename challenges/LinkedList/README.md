@@ -53,7 +53,7 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 ### Inputs and Expected Outputs for Code Challenge 8
 
 #### mergeLists(list1, list2)
-| Input | | Input | Args | Expected Output |
+| Input | | Input2 | Args | Expected Output |
 | :----------- |:-- |:----------- |
 | head -> [1] -> [3] -> [2] -> X | head -> [5] -> [9] -> [4] -> X | head -> [1] -> [5] -> [3] -> [9] -> [2] -> [4] -> X
 
