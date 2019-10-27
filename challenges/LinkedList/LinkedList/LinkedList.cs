@@ -79,7 +79,9 @@ namespace LinkedList
 
         #endregion
 
+
         #region Insert After
+
 
         /// <summary>
         /// adds a new node with the given newValue 
@@ -101,6 +103,8 @@ namespace LinkedList
                 while (current.Value != value)
                 {
                     current = current.Next;
+                }
+                current.Next = new Node(newVal);
                 }
                 current.Next = new Node(newVal);
             }
@@ -145,6 +149,7 @@ namespace LinkedList
         #region LL Merge
 
         #endregion
+
 
 
     }
