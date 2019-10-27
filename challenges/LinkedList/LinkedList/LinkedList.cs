@@ -41,39 +41,6 @@ namespace LinkedList
         #endregion
 
 
-
-
-        #region Insert After
-
-        /// <summary>
-        /// adds a new node with the given newValue 
-        /// immediately AFTER the first value node
-        /// </summary>
-        /// <param name="value"></param>
-        /// <param name="newVal"></param>
-        public void InsertAfter(int value, int newVal)
-        {
-            Node newNode = new Node(value);
-
-            if (Head == null)
-            {
-                Head = newNode;
-            }
-            else
-            {
-                Node current = Head;
-                while (current.Value != value)
-                {
-                    current = current.Next;
-                }
-                current.Next = new Node(newVal);
-            }
-        }
-
-        #endregion
-
-
-
         #region Insert Before
         /// <summary>
         /// adds a new node with the given newValue 
@@ -111,6 +78,38 @@ namespace LinkedList
         }
 
         #endregion
+
+
+        #region Insert After
+
+        /// <summary>
+        /// adds a new node with the given newValue 
+        /// immediately AFTER the first value node
+        /// </summary>
+        /// <param name="value"></param>
+        /// <param name="newVal"></param>
+        public void InsertAfter(int value, int newVal)
+        {
+            Node newNode = new Node(value);
+
+            if (Head == null)
+            {
+                Head = newNode;
+            }
+            else
+            {
+                Node current = Head;
+                while (current.Value != value)
+                {
+                    current = current.Next;
+                }
+                current.Next = new Node(newVal);
+            }
+        }
+
+        #endregion
+
+
 
     }
 }
