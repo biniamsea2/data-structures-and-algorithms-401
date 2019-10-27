@@ -82,6 +82,7 @@ namespace LinkedList
 
         #region Insert After
 
+
         /// <summary>
         /// adds a new node with the given newValue 
         /// immediately AFTER the first value node
@@ -104,8 +105,48 @@ namespace LinkedList
                     current = current.Next;
                 }
                 current.Next = new Node(newVal);
+                }
+                current.Next = new Node(newVal);
             }
         }
+
+        #endregion
+
+
+
+
+        #region llkthfromend
+
+        public void llkthFromend(int K)
+        {
+            Node newNode = new Node(K);
+            if (Head == null)
+            {
+                Head = newNode;
+            }
+            else
+            {
+                int counter = 0;
+                Node current = Head;
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                    counter++;
+                    int final = counter - K;
+                }
+                current.Next = newNode;
+            }
+        }
+
+
+
+
+
+        #endregion
+
+
+
+        #region LL Merge
 
         #endregion
 
