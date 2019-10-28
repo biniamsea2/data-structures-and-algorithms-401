@@ -105,9 +105,25 @@ namespace LinkedList
                     current.Next = new Node(newVal);
                 }
             }
+        }
+
+        #endregion
+
+        #region Insert
+        #endregion
+
+
+        #region Includes
+        #endregion
+
+
+        #region toString
+        #endregion
+
 
         #region llkthfromend
-        
+
+
         public int llkthFromend(int k)
         {
             Node current = Head;
@@ -144,8 +160,19 @@ namespace LinkedList
         }
     }
 
+
     #endregion
 
 
-}
 
+    #region LL Merge
+
+
+
+
+
+    #endregion
+
+
+
+}
