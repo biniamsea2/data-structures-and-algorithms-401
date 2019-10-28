@@ -82,7 +82,6 @@ namespace LinkedList
 
         #region Insert After
 
-
         /// <summary>
         /// adds a new node with the given newValue 
         /// immediately AFTER the first value node
@@ -103,54 +102,50 @@ namespace LinkedList
                 while (current.Value != value)
                 {
                     current = current.Next;
+                    current.Next = new Node(newVal);
                 }
-                current.Next = new Node(newVal);
-                }
-                current.Next = new Node(newVal);
             }
-        }
-
-        #endregion
-
-
-
 
         #region llkthfromend
-
-        public void llkthFromend(int K)
+        
+        public int llkthFromend(int k)
         {
-            Node newNode = new Node(K);
-            if (Head == null)
+            Node current = Head;
+            Node argument = null;
+            int count = 0;
+
+            while (current.Next != null)
             {
-                Head = newNode;
+                if (count == k)
+                {
+                    argument = current;
+                }
+                current = current.Next;
+                count++;
             }
-            else
+
+            if (count != 0)
             {
-                int counter = 0;
-                Node current = Head;
-                while (current.Next != null)
+                int countNum = 0;
+                while (argument.Next != null)
+                {
+                    argument = argument.Next;
+                    countNum++;
+                }
+
+                current = Head;
+                for (int i = 0; i < k - countNum; i++)
                 {
                     current = current.Next;
-                    counter++;
-                    int final = counter - K;
                 }
-                current.Next = newNode;
+                return current.Value;
             }
+            return current.Value;
         }
-
-
-
-
-
-        #endregion
-
-
-
-        #region LL Merge
-
-        #endregion
-
-
-
     }
+
+    #endregion
+
+
 }
+
