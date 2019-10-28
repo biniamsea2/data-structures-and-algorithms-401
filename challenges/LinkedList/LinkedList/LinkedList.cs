@@ -41,39 +41,6 @@ namespace LinkedList
         #endregion
 
 
-
-
-        #region Insert After
-
-        /// <summary>
-        /// adds a new node with the given newValue 
-        /// immediately AFTER the first value node
-        /// </summary>
-        /// <param name="value"></param>
-        /// <param name="newVal"></param>
-        public void InsertAfter(int value, int newVal)
-        {
-            Node newNode = new Node(value);
-
-            if (Head == null)
-            {
-                Head = newNode;
-            }
-            else
-            {
-                Node current = Head;
-                while (current.Value != value)
-                {
-                    current = current.Next;
-                }
-                current.Next = new Node(newVal);
-            }
-        }
-
-        #endregion
-
-
-
         #region Insert Before
         /// <summary>
         /// adds a new node with the given newValue 
@@ -113,35 +80,79 @@ namespace LinkedList
         #endregion
 
 
+        #region Insert After
 
-        #region llkthfromend
-
-        public void llkthFromend(int K)
+        /// <summary>
+        /// adds a new node with the given newValue 
+        /// immediately AFTER the first value node
+        /// </summary>
+        /// <param name="value"></param>
+        /// <param name="newVal"></param>
+        public void InsertAfter(int value, int newVal)
         {
-            Node newNode = new Node(K);
+            Node newNode = new Node(value);
+
             if (Head == null)
             {
                 Head = newNode;
             }
             else
             {
-                int counter = 0;
                 Node current = Head;
-                while (current.Next != null)
+                while (current.Value != value)
                 {
                     current = current.Next;
-                    counter++;
-                    int final = counter - K;
                 }
-                current.Next = newNode;
+                current.Next = new Node(newVal);
             }
         }
 
-
-
-
-
         #endregion
 
+
+        #region llkthfromend
+        
+        public int llkthFromend(int k)
+        {
+            Node current = Head;
+            Node argument = null;
+            int count = 0;
+
+            while (current.Next != null)
+            {
+                if (count == k)
+                {
+                    argument = current;
+                }
+                current = current.Next;
+                count++;
+            }
+
+            if (count != 0)
+            {
+                int countNum = 0;
+                while (argument.Next != null)
+                {
+                    argument = argument.Next;
+                    countNum++;
+                }
+
+                current = Head;
+                for (int i = 0; i < k - countNum; i++)
+                {
+                    current = current.Next;
+                }
+                return current.Value;
+            }
+            return current.Value;
+        }
     }
+
+    #endregion
+
+
+
+
+
 }
+
