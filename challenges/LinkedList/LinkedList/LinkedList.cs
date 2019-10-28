@@ -79,6 +79,7 @@ namespace LinkedList
 
         #endregion
 
+
         #region Insert After
 
         /// <summary>
@@ -101,8 +102,8 @@ namespace LinkedList
                 while (current.Value != value)
                 {
                     current = current.Next;
+                    current.Next = new Node(newVal);
                 }
-                current.Next = new Node(newVal);
             }
         }
 
@@ -121,6 +122,7 @@ namespace LinkedList
 
 
         #region llkthfromend
+
 
         public int llkthFromend(int k)
         {
