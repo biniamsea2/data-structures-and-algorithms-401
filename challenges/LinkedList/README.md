@@ -77,6 +77,6 @@ Code Challenge 8
  
 1.0: Code Challenge 6 Completed - 22 Oct 2019  
 1.0: Code Challenge 7 Partial - 24 Oct 2019  
-1.0: Code Challenge 6 Partial - 25 Oct 2019  
+1.0: Code Challenge 8 Partial - 25 Oct 2019  
 
 ---
