@@ -102,13 +102,9 @@ namespace LinkedList
                 while (current.Value != value)
                 {
                     current = current.Next;
+                    current.Next = new Node(newVal);
                 }
-                current.Next = new Node(newVal);
             }
-        }
-
-        #endregion
-
 
         #region llkthfromend
         
@@ -149,9 +145,6 @@ namespace LinkedList
     }
 
     #endregion
-
-
-
 
 
 }
