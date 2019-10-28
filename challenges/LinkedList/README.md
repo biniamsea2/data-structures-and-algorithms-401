@@ -67,7 +67,8 @@ Code Challenge 7
 ![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191023_135831.jpg)
 Code Challenge 8
 ![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191024_134956.jpg)
-
+Code Challenge 5
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/Assets/20191027_183216.jpg)
 
 
 
@@ -77,6 +78,7 @@ Code Challenge 8
  
 1.0: Code Challenge 6 Completed - 22 Oct 2019  
 1.0: Code Challenge 7 Partial - 24 Oct 2019  
-1.0: Code Challenge 8 Partial - 25 Oct 2019  
+1.0: Code Challenge 8 Partial - 25 Oct 2019 
+1.0: Code Challenge 5 Partial - 27 Oct 2019 
 
 ---
