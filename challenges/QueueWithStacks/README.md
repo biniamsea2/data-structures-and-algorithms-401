@@ -22,6 +22,12 @@ In First Out approach.
 
 Enqueue(value)
 
+| Input | Args | Expected Output |
+| :----------- | :----------- |
+| [10,15,20], 5 | [5,10,15,20] |
+
+
+
 | Input |Args |Expected Output | 
 | :----------- | :----------- |
 | [10,15,20], | 5 | [5,10,15,20] |
@@ -29,9 +35,11 @@ Enqueue(value)
 
 Dequeue()
 
-| Input | Args| Expected Output |
+| Input | Args | Expected Output |
 | :----------- | :----------- |
-| [5,10,15,20] | 20 | [5,10,15,] |
+| [5,10,15,20], 20 | [5,10,15] |
+
+
 
 
 ---
