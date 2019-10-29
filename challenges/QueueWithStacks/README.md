@@ -37,7 +37,7 @@ Dequeue()
 
 ---
 ## Big O
-| Space | Time
+| Space  | Time  
 O(n) | O(n)
 
 ---
