@@ -18,19 +18,19 @@ Implement the following methods:
 
 ### Inputs and Expected Outputs
 
-Enqueue(Animal)
+Enqueue(Animal)  
 
-| Input | Animal |Expected Output |
-| :----------- | :----------- |
-| [D,C,C,D,D],  | C | [C,D,C,C,D,D] |
+| Input | Animal |Expected Output |  
+| :----------- | :----------- |  
+| [D,C,C,D,D],  | C | [C,D,C,C,D,D] |  
 
 
-Dequeue(Pref)
+Dequeue(Pref)  
 
-| Input | Pref | Expected Output | Returns |
-| :----------- | :----------- |
-| [D,C,C,D,D],  | C | [D,C,C] | C
-Pops the first two dogs off and returns the first cat
+| Input | Pref | Expected Output | Returns |  
+| :----------- | :----------- |  
+| [D,C,C,D,D],  | C | [D,C,C] | C  
+Pops the first two dogs off and returns the first cat  
 
 
 
