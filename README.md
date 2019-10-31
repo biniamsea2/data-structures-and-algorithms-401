@@ -4,6 +4,7 @@
 4) [Queue With Stacks] (https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/challenges/QueueWithStacks)
 5) [FIFO Animal Shelter] (https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fifo-animal-shelter)
 
+5. [FIFO Animal Shelter](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fifo-animal-shelter)
 
 
 
