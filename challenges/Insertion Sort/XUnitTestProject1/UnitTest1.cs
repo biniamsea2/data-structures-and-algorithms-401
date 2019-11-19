@@ -24,6 +24,7 @@ namespace XUnitTestProject1
             Assert.NotEqual(Answer, InsertionSort(NewArr));
         }
 
+
         [Fact]
         public void EdgeCase()
         {
