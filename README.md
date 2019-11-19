@@ -12,6 +12,10 @@
 6) [Stack and a Queue Implementation](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/stack-and-queue)
 7) [Binary Tree](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/DSA/BinaryTrees)
 8) [FizzBuzz Binary Tree](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fizzbuzz-tree/challenges/FizzBuzzTree)
+9) [Insertion Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/insertionSort/challenges/Insertion%20Sort
+)
+
+
 
 ---
 
