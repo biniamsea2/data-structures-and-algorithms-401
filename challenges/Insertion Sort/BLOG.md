@@ -18,7 +18,7 @@ Below we have some pseduocode that we will work with in this blog.
       arr[j + 1] <-- temp
 
   ##### Before we discuss the pseduocode it might be easier to first work with a visual example.    
-  ### Example:  
+  ### Example:  https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/insertionSort/challenges/Insertion%20Sort/Insertion%20Sort/Assets/20191118_173425.jpg
 - So, as you can see we have an array at the top, our array has 6 numbers [8,4,23,42,16,15].  
 - Next, we use that as our first input. We want to be able to order this array from smallest to biggest. So, we take the value at index 1 and compare it the value
 at index 0. We start at index 1 becuase we are able to compare it to index 0. So, here we have the value 4 at index 1 being compared to the value at index 0 which is 8.  
