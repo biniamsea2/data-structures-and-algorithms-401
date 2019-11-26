@@ -39,7 +39,9 @@ ALGORITHM Swap(arr, i, low)
     arr[i] <-- arr[low]
     arr[low] <-- temp
 ```
-https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/quicksort/Assets/20191124_181306%20(1).jpg
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/quicksort/Assets/20191124_181306%20(1).jpg)
+
+
   ##### Let's walk through the steps.    
 - First, you are going to create a pivot. The pivot is going to be the value that we are comparing the other values in the array to.  
 - Next, we compare all the other values to the pivot. If the value is less than the pivot then we move it to the left side of the pivot. If the value is great than the pivot then we move it to the right side of the pivot.  
