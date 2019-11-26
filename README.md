@@ -14,7 +14,8 @@
 8) [FizzBuzz Binary Tree](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fizzbuzz-tree/challenges/FizzBuzzTree)
 9) [Insertion Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/insertionSort/challenges/Insertion%20Sort
 )
-
+10) [Quick Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/quicksort/challenges/QuickSort
+)
 
 
 ---
