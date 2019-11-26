@@ -16,6 +16,8 @@
 )
 10) [Quick Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/quicksort/challenges/QuickSort
 )
+11) [Merge Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/mergesort/challenges/MergeSort
+)
 
 
 ---
