@@ -40,8 +40,10 @@ ALGORITHM Merge(left, right, arr)
        set remaining entries in arr to remaining values in right
     else
        set remaining entries in arr to remaining values in left
+       
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/quicksort/Assets/20191124_181306%20(1).jpg)
 
-  ##### Let's talk through the steps with an example.    
+  ##### Let's walk through the steps.    
   ### Example:  Array[8,4,23,42,16,15]
 - The Method will cut the array in half and place the left half into a new array called left.  
 - It will place the right side of the array into a new array called right.  
