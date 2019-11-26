@@ -39,7 +39,7 @@ ALGORITHM Swap(arr, i, low)
     arr[i] <-- arr[low]
     arr[low] <-- temp
 ```
-![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/quicksort/Assets/20191124_181306%20(1).jpg)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/quicksort/Assets/20191125_225332.jpg)
 
 
   ##### Let's walk through the steps.    
