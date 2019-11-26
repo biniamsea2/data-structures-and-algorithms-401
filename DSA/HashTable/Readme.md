@@ -21,9 +21,7 @@ O(n) | O(n)
 ---
 
 ### Whiteboard Visual
-
-
-
+![Image 1]()
 
 ---
 
