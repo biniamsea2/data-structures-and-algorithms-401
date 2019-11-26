@@ -18,7 +18,8 @@
 )
 11) [Merge Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/mergesort/challenges/MergeSort
 )
-
+12) [Hash Table Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/hashtable/DSA/HashTable
+)
 
 ---
 
