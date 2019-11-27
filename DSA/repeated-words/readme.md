@@ -18,7 +18,7 @@ Ensure your tests are passing before you submit your solution.
 | Input |  Output |
 | :----------- | :----------- |
 "Once upon a time, there was a brave princess who..."| "a" | 
-"It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York..."| "summer" | 
+"It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didnâ€™t know what I was doing in New York..."| "summer" | 
 
 ---
 
@@ -27,6 +27,7 @@ Ensure your tests are passing before you submit your solution.
 | :----------- | :----------- |
  O(n) | O(n) | 
 
+---
 
 ### Whiteboard Visual
 ![Image 1]()
