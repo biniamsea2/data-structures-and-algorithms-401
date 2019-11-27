@@ -20,6 +20,8 @@
 )
 12) [Hash Table Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/hashtable/DSA/HashTable
 )
+12) [Repeated-word](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/repeated-word/DSA/repeated-words
+)
 
 ---
 
