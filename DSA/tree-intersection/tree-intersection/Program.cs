@@ -1,17 +1,12 @@
 ﻿using System;
 
-namespace repeated_words
+namespace tree_intersection
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-        }
-
-        public static void TreeIntersection()
-        {
-
         }
     }
 }
