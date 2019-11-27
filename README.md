@@ -1,28 +1,41 @@
-
-# Data Structures and Algorithms C\#
----
-
-## Table of Contents
-
-1) [Array Shift](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/challenges/ArrayShift)
-2) [Array Binary Search](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/challenges/BinarySearch)
-3) [Linked List](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/LL-insertions/challenges/LinkedList)
-4) [Queue With Stacks](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/challenges/QueueWithStacks)
-5) [FIFO Animal Shelter](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fifo-animal-shelter)
-6) [Stack and a Queue Implementation](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/stack-and-queue)
-7) [Binary Tree](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/DSA/BinaryTrees)
-8) [FizzBuzz Binary Tree](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/fizzbuzz-tree/challenges/FizzBuzzTree)
-9) [Insertion Sort](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/insertionSort/challenges/Insertion%20Sort
-)
-
-
-
----
-
+## Code Challenge: Tree-Intersection  
 *Author: Biniam Tesfamariam*
+
 ---
 
-## Change Log
-1.0: *Data Structures and Algorithms repository set up* - 15 Oct 2019
+
+### Features:   
+Write a function called tree_intersection that takes two binary tree parameters.  
+Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.  
+
+---
+## Unit Tests:
+Write at least three test assertions for each method that you define.  
+Ensure your tests are passing before you submit your solution.
+
+---
+### Input and Output:  
+| Input |  Output |
+| :----------- | :----------- |
+First tree = [100, 50, 20, 150] Second tree [100, 40, 30, 20]| [100, 20] | 
+
+---
 
 
+### Big O:  
+| Time |  Space |
+| :----------- | :----------- |
+ O(m+n) | O(m+n) | 
+
+
+### Whiteboard Visual
+![Image 1]()
+
+---
+
+### Change Log
+ 
+1.0: Code Challenge 32 Partial - 26 Nov 2019  
+
+
+---
