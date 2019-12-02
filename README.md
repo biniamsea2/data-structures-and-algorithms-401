@@ -22,7 +22,7 @@
 )
 13) [Repeated-word](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/repeated-word/DSA/repeated-words
 )
-14) [Tree Intersection](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/tree-intersection
+14) [Tree Intersection](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/tree-intersection/DSA/tree-intersection
 )
 
 ---
