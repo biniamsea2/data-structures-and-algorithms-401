@@ -26,7 +26,8 @@
 )
 15) [Graphs](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/graph/DSA/graphcodechallenge
 )
-
+16) [Edges](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/DSA/edges
+)
 ---
 
 *Author: Biniam Tesfamariam*
