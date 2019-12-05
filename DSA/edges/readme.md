@@ -15,6 +15,14 @@ Write at least three test assertions for each method that you define.
 Ensure your tests are passing before you submit your solution.  
 
 ---
+### Input and Output:  
+| Input |  Output |
+| :----------- | :----------- |
+[Metroville, Pandora,] | [True, $82] | 
+[Arendelle, New Monstropolis, Naboo,] | [True, $115] | 
+[Naboo, Pandora,] | [False, $0] | 
+[Narnia, Arendelle, Naboo] | [False, $0] | 
+
 
 
 ### Big O:  
