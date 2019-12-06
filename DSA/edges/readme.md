@@ -32,7 +32,7 @@ Ensure your tests are passing before you submit your solution.
 
 
 ### Whiteboard Visual
-![Image 1]()
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/DSA/edges/20191205_162204.jpg)
 
 ---
 
