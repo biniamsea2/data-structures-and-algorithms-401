@@ -32,7 +32,7 @@ The input is the graph shown above. | A, B, C, G, D, E, H, F |
 
 
 ### Whiteboard Visual
-![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/master/DSA/edges/20191205_162204.jpg)
+![Image 1](https://github.com/biniamsea2/data-structures-and-algorithms-401/blob/depth-first/DSA/depthfirst/20191207_014655.jpg)
 
 ---
 
