@@ -28,6 +28,8 @@
 )
 16) [Edges](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/master/DSA/edges
 )
+17) [Depth-First](https://github.com/biniamsea2/data-structures-and-algorithms-401/tree/depth-first/DSA/depthfirst
+)
 ---
 
 *Author: Biniam Tesfamariam*
